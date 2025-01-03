@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+   
+</head>
+
+<body class="light-theme">
+
+<section>
+
+  <div class="social__top">
+    <div>
+      <span> Social Media Dashboard</span>
+      <p>Total Followers: 23,004</p>
+    </div>
+
+    <div class="line"></div>
+    <div class="social__switch" onclick="switchTheme()">
+      <span>Dark Mode</span>
+      <div class="social__button" id="btnSwitch"><div class="social__buttoncircle"></div></div>
+    </div>
+  </div>
+
+  <div class="social__main">
+
+
+    
+    <div class="social__card" id="facebook">
+      <div class="social__card__icons">
+        <i class="bi bi-facebook"></i>
+        <span>@nathanf </span>
+      </div>
+
+      <div class="social__card__numbers">
+        <span>1987</span>
+        <p>Followers</p>
+      </div>
+
+      <div class="social__card__updown">
+        <i class="bi bi-caret-up-fill"></i> 
+        <span class="social__up">12 Today</span>
+      </div>
+    </div>
+
+
+
+    <div class="social__card" id="twitter">
+      <div class="social__card__icons">
+        <i class="bi bi-twitter"></i>
+        <span>@nathanf</span>
+      </div>
+
+      <div class="social__card__numbers">
+        <span>1044</span>
+        <p>Followers</p>
+      </div>
+
+      <div class="social__card__updown">
+        <i class="bi bi-caret-up-fill"></i> 
+        <span class="social__up">99 Today</span>
+      </div>
+    </div>
+
+
+
+    <div class="social__card" id="instagram">
+      <div class="social__card__icons">
+        <i class="bi bi-instagram"></i>
+        <span>@nathanrealf</span>
+      </div>
+
+      <div class="social__card__numbers">
+        <span>11k</span>
+        <p>Followers</p>
+      </div>
+
+      <div class="social__card__updown">
+        <i class="bi bi-caret-up-fill"></i> 
+        <span class="social__up">1099 Today</span>
+      </div>
+    </div>
+
+
+
+    <div class="social__card" id="youtube">
+      <div class="social__card__icons">
+        <i class="bi bi-youtube"></i>
+        <span>Nathan F.</span>
+      </div>
+      
+      <div class="social__card__numbers">
+        <span>8239</span>
+        <p>Subscribers</p>
+      </div>
+
+      <div class="social__card__updown">
+        <i class="bi bi-caret-down-fill"></i>
+        <span class="social__down">144 Today</span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="social__title2">
+    <span>Overview - Today</span>
+  </div>
+
+  <div class="social__main2">
+
+      <div class="social__card2" id="box1">
+        <div class="social__card2__title">
+          <span>Page Views</span>
+          <i class="bi bi-facebook"></i>
+        </div>
+
+        <div class="social__card2__stats">
+          <span>87</span>
+          <div class="social__card__updown">
+            <i class="bi bi-caret-up-fill"></i>
+            <span class="social__up">3%</span>
+          </div>
+
+        </div> 
+      </div>
+
+
+
+      <div class="social__card2" id="box2">
+        <div class="social__card2__title">
+          <span>Likes</span>
+          <i class="bi bi-facebook"></i>
+        </div>
+
+        <div class="social__card2__stats">
+          <span>52</span>
+          <div class="social__card__updown">
+            <i class="bi bi-caret-down-fill"></i>
+            <span class="social__down">2%</span>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <div class="social__card2" id="box3">
+        <div class="social__card2__title">
+          <span>Likes</span>
+          <i class="bi bi-instagram"></i>
+        </div>
+        
+        <div class="social__card2__stats">
+          <span>5462</span>
+
+          <div class="social__card__updown">
+            <i class="bi bi-caret-up-fill"></i>
+            <span class="social__up">2257%</span>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <div class="social__card2" id="box4">
+        <div class="social__card2__title">
+          <span>Profile Views</span>
+          <i class="bi bi-instagram"></i>
+        </div>
+
+        <div class="social__card2__stats">
+          <span>52k</span>
+
+          <div class="social__card__updown">
+            <i class="bi bi-caret-up-fill"></i>
+            <span class="social__up">1375%</span>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <div class="social__card2" id="box5">
+        <div class="social__card2__title">
+          <span>Retweets</span>
+          <i class="bi bi-twitter"></i>
+        </div>
+
+        <div class="social__card2__stats">
+          <span>117</span>
+
+          <div class="social__card__updown">
+            <i class="bi bi-caret-up-fill"></i>
+            <span class="social__up">303%</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="social__card2" id="box6">
+        <div class="social__card2__title">
+          <span>Likes</span>
+          <i class="bi bi-twitter"></i>
+        </div>
+
+        <div class="social__card2__stats">
+          <span>507</span>
+
+          <div class="social__card__updown">
+            <i class="bi bi-caret-up-fill"></i> 
+            <span class="social__up">553%</span>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <div class="social__card2" id="box7">
+        <div class="social__card2__title">
+          <span>Likes</span>
+          <i class="bi bi-youtube"></i>
+        </div>
+
+        <div class="social__card2__stats">
+          <span>107</span>
+
+          <div class="social__card__updown">
+            <i class="bi bi-caret-down-fill"></i>
+            <span class="social__down">19%</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="social__card2" id="box8">
+        <div class="social__card2__title">
+          <span>Total Views</span>
+          <i class="bi bi-youtube"></i>
+        </div>
+
+        <div class="social__card2__stats">
+          <span>1407</span>
+
+          <div class="social__card__updown">
+            <i class="bi bi-caret-down-fill"></i>
+            <span class="social__down">12%</span>
+          </div>
+
+        </div>
+      </div>
+  </div>
+
+</section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
